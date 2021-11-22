@@ -12,11 +12,12 @@ Many 2D/3D videogames manage the collision of the character with the walls by ma
 
 <img src = "./examples/NormalsWalls.png"/>
 
-- Next, we need the "deltaPosition" of the character.
-Calculate the previousPosition every RequestAnimationFrame (or the ratio you want to use), the formula will be:
+- Next, you need the "deltaPosition" of the character.
+Calculate the previousPosition every RequestAnimationFrame (or the ratio you want to use), the formula will be: *dp = previousPosition - currentPosition*
 
-*dp = previousPosition - currentPosition*
+- Once you got the deltaPosition and every wall normalized direction vector (we can call it N), you have to calculate the new deltaPosition according to this formula
 
+<img src = "./examples/newDpLatex.png"/>
 
 
 ## Setup
