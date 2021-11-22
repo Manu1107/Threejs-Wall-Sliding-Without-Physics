@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.experience
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    position: relative;
+    color: white;
+    z-index: 1000;
+    padding: 20px;
+}
+p{
+    position: relative;
+    color: white;
+    z-index: 1000;
+    padding-left: 30px;
+}
