@@ -17,7 +17,9 @@ Calculate the previousPosition every RequestAnimationFrame (or the ratio you wan
 
 - Once you got the deltaPosition and every wall normalized direction vector (we can call it N), you have to calculate the new deltaPosition according to this formula
 
-<img src = "./examples/newDpLatex.png" style="display: block; margin-left: auto;  margin-right: auto; width: 50%;"/>
+<p align="center">
+    <img src = "./examples/newDpLatex.png"/>
+</p>
 
 
 ## Setup
