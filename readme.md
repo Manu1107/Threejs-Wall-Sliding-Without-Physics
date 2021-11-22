@@ -10,7 +10,7 @@ Many 2D/3D videogames manage the collision of the character with the walls by ma
 
 - First, the idea is to obtain wall normals "normalized" to Vector2(0,1) according to the direction they are pointing (For 2d just consider xy axes, for 3d consider axes of movement, without the y axes)
 
-<img src = "./examples/NormalsWalls.png"/>
+<img src = "./examples/NormalsWall.png"/>
 
 - Next, you need the "deltaPosition" of the character.
 Calculate the previousPosition every RequestAnimationFrame (or the ratio you want to use), the formula will be: *dp = previousPosition - currentPosition*
